@@ -3,6 +3,7 @@ import { siteConfig } from '@/lib/config'
 import { resolvePostProps } from '@/lib/db/SiteDataApi'
 import Slug from '..'
 import { checkSlugHasOneSlash } from '@/lib/utils/post'
+import { isExport } from '@/lib/utils/buildMode'
 import { getStaticPathsBase } from '@/lib/build/staticPaths'
 
 /**
